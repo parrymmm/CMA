@@ -4,8 +4,10 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./Components/Home";
 import Header from "./Components/Partials/Header";
 import NotFound from "./Components/Auth/NotFound";
-import Login from "./Components/Auth/Login/Login";
+import Login from "./Components/Login/Login";
 import Profile from "./Components/Profile/Profile";
+import Settings from "./Components/Profile/Settings";
+import AddContact from "./Components/Contact/AddContact";
 
 function App() {
   return (
@@ -16,8 +18,10 @@ function App() {
           <Route index element={<Home />} />
           <Route path="/signup" element={<Signup />} />
           <Route path="/login" element={<Login />} />
-          <Route path="*" element={<NotFound />} />
+          <Route path="/add-contact" element={<AddContact />} />
           <Route path="/profile" element={<Profile />} />
+          <Route path="/profile/settings" element={<Settings />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </div>
     </BrowserRouter>

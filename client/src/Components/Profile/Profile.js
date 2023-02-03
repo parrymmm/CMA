@@ -10,12 +10,10 @@ const Profile = () => {
       <div className="profile-col-1">
         <div className="profile-col-1-sub-1">
           <div className="profile-photo-round">
-            <img alt="" src={userPhoto} />
+            <img alt="my pics" src={userPhoto} />
           </div>
         </div>
-        <div className="profile-col-1-sub-2">
-          First last Nike Omolade Chidera Halima Treasure
-        </div>
+        <div className="profile-col-1-sub-2">Nike Omolade Halima</div>
         <div className="profile-col-1-sub-3">Last seen 2/2/2023 03-31-57PM</div>
         <div className="profile-col-1-sub-4">
           <Link to="/profile/settings">Settings</Link>
@@ -39,13 +37,227 @@ const Profile = () => {
         </div>
         <div className="profile-col-2-sub-2">
           <div className="contact-box">
-            <div className="contact-box-item">contact-box-item</div>
-            <div className="contact-box-item">contact-box-item</div>
-            <div className="contact-box-item">contact-box-item</div>
-            <div className="contact-box-item">contact-box-item</div>
+            <div className="contact-box-item">John</div>
+            <div className="contact-box-item">Micheal</div>
+            <div className="contact-box-item">johnmicheal@gmail.com</div>
+            <div className="contact-box-item">08057878960</div>
             <div className="contact-box-action-grp">
-              <div className="edit-btn">edit-btn</div>
-              <div className="delete-btn">edit-btn</div>
+              <div className="edit-btn">
+                <Link to="/contact/edit">Edit</Link>
+              </div>
+              <div className="delete-btn">
+                <Link to="/contact/delete">Delete</Link>
+              </div>
+            </div>
+          </div>
+          <div className="contact-box">
+            <div className="contact-box-item">John</div>
+            <div className="contact-box-item">Micheal</div>
+            <div className="contact-box-item">johnmicheal@gmail.com</div>
+            <div className="contact-box-item">08057878960</div>
+            <div className="contact-box-action-grp">
+              <div className="edit-btn">
+                <Link to="/contact/edit">Edit</Link>
+              </div>
+              <div className="delete-btn">
+                <Link to="/contact/delete">Delete</Link>
+              </div>
+            </div>
+          </div>
+          <div className="contact-box">
+            <div className="contact-box-item">John</div>
+            <div className="contact-box-item">Micheal</div>
+            <div className="contact-box-item">johnmicheal@gmail.com</div>
+            <div className="contact-box-item">08057878960</div>
+            <div className="contact-box-action-grp">
+              <div className="edit-btn">
+                <Link to="/contact/edit">Edit</Link>
+              </div>
+              <div className="delete-btn">
+                <Link to="/contact/delete">Delete</Link>
+              </div>
+            </div>
+          </div>
+          <div className="contact-box">
+            <div className="contact-box-item">John</div>
+            <div className="contact-box-item">Micheal</div>
+            <div className="contact-box-item">johnmicheal@gmail.com</div>
+            <div className="contact-box-item">08057878960</div>
+            <div className="contact-box-action-grp">
+              <div className="edit-btn">
+                <Link to="/contact/edit">Edit</Link>
+              </div>
+              <div className="delete-btn">
+                <Link to="/contact/delete">Delete</Link>
+              </div>
+            </div>
+          </div>
+          <div className="contact-box">
+            <div className="contact-box-item">John</div>
+            <div className="contact-box-item">Micheal</div>
+            <div className="contact-box-item">johnmicheal@gmail.com</div>
+            <div className="contact-box-item">08057878960</div>
+            <div className="contact-box-action-grp">
+              <div className="edit-btn">
+                <Link to="/contact/edit">Edit</Link>
+              </div>
+              <div className="delete-btn">
+                <Link to="/contact/delete">Delete</Link>
+              </div>
+            </div>
+          </div>
+          <div className="contact-box">
+            <div className="contact-box-item">John</div>
+            <div className="contact-box-item">Micheal</div>
+            <div className="contact-box-item">johnmicheal@gmail.com</div>
+            <div className="contact-box-item">08057878960</div>
+            <div className="contact-box-action-grp">
+              <div className="edit-btn">
+                <Link to="/contact/edit">Edit</Link>
+              </div>
+              <div className="delete-btn">
+                <Link to="/contact/delete">Delete</Link>
+              </div>
+            </div>
+          </div>
+          <div className="contact-box">
+            <div className="contact-box-item">John</div>
+            <div className="contact-box-item">Micheal</div>
+            <div className="contact-box-item">johnmicheal@gmail.com</div>
+            <div className="contact-box-item">08057878960</div>
+            <div className="contact-box-action-grp">
+              <div className="edit-btn">
+                <Link to="/contact/edit">Edit</Link>
+              </div>
+              <div className="delete-btn">
+                <Link to="/contact/delete">Delete</Link>
+              </div>
+            </div>
+          </div>
+          <div className="contact-box">
+            <div className="contact-box-item">John</div>
+            <div className="contact-box-item">Micheal</div>
+            <div className="contact-box-item">johnmicheal@gmail.com</div>
+            <div className="contact-box-item">08057878960</div>
+            <div className="contact-box-action-grp">
+              <div className="edit-btn">
+                <Link to="/contact/edit">Edit</Link>
+              </div>
+              <div className="delete-btn">
+                <Link to="/contact/delete">Delete</Link>
+              </div>
+            </div>
+          </div>
+          <div className="contact-box">
+            <div className="contact-box-item">John</div>
+            <div className="contact-box-item">Micheal</div>
+            <div className="contact-box-item">johnmicheal@gmail.com</div>
+            <div className="contact-box-item">08057878960</div>
+            <div className="contact-box-action-grp">
+              <div className="edit-btn">
+                <Link to="/contact/edit">Edit</Link>
+              </div>
+              <div className="delete-btn">
+                <Link to="/contact/delete">Delete</Link>
+              </div>
+            </div>
+          </div>
+          <div className="contact-box">
+            <div className="contact-box-item">John</div>
+            <div className="contact-box-item">Micheal</div>
+            <div className="contact-box-item">johnmicheal@gmail.com</div>
+            <div className="contact-box-item">08057878960</div>
+            <div className="contact-box-action-grp">
+              <div className="edit-btn">
+                <Link to="/contact/edit">Edit</Link>
+              </div>
+              <div className="delete-btn">
+                <Link to="/contact/delete">Delete</Link>
+              </div>
+            </div>
+          </div>
+          <div className="contact-box">
+            <div className="contact-box-item">John</div>
+            <div className="contact-box-item">Micheal</div>
+            <div className="contact-box-item">johnmicheal@gmail.com</div>
+            <div className="contact-box-item">08057878960</div>
+            <div className="contact-box-action-grp">
+              <div className="edit-btn">
+                <Link to="/contact/edit">Edit</Link>
+              </div>
+              <div className="delete-btn">
+                <Link to="/contact/delete">Delete</Link>
+              </div>
+            </div>
+          </div>
+          <div className="contact-box">
+            <div className="contact-box-item">John</div>
+            <div className="contact-box-item">Micheal</div>
+            <div className="contact-box-item">johnmicheal@gmail.com</div>
+            <div className="contact-box-item">08057878960</div>
+            <div className="contact-box-action-grp">
+              <div className="edit-btn">
+                <Link to="/contact/edit">Edit</Link>
+              </div>
+              <div className="delete-btn">
+                <Link to="/contact/delete">Delete</Link>
+              </div>
+            </div>
+          </div>
+          <div className="contact-box">
+            <div className="contact-box-item">John</div>
+            <div className="contact-box-item">Micheal</div>
+            <div className="contact-box-item">johnmicheal@gmail.com</div>
+            <div className="contact-box-item">08057878960</div>
+            <div className="contact-box-action-grp">
+              <div className="edit-btn">
+                <Link to="/contact/edit">Edit</Link>
+              </div>
+              <div className="delete-btn">
+                <Link to="/contact/">Delete</Link>
+              </div>
+            </div>
+          </div>
+          <div className="contact-box">
+            <div className="contact-box-item">John</div>
+            <div className="contact-box-item">Micheal</div>
+            <div className="contact-box-item">johnmicheal@gmail.com</div>
+            <div className="contact-box-item">08057878960</div>
+            <div className="contact-box-action-grp">
+              <div className="edit-btn">
+                <Link to="/contact/edit">Edit</Link>
+              </div>
+              <div className="delete-btn">
+                <Link to="/contact/">Delete</Link>
+              </div>
+            </div>
+          </div>
+          <div className="contact-box">
+            <div className="contact-box-item">John</div>
+            <div className="contact-box-item">Micheal</div>
+            <div className="contact-box-item">johnmicheal@gmail.com</div>
+            <div className="contact-box-item">08057878960</div>
+            <div className="contact-box-action-grp">
+              <div className="edit-btn">
+                <Link to="/contact/edit">Edit</Link>
+              </div>
+              <div className="delete-btn">
+                <Link to="/contact/">Delete</Link>
+              </div>
+            </div>
+          </div>
+          <div className="contact-box">
+            <div className="contact-box-item">John</div>
+            <div className="contact-box-item">Micheal</div>
+            <div className="contact-box-item">johnmicheal@gmail.com</div>
+            <div className="contact-box-item">08057878960</div>
+            <div className="contact-box-action-grp">
+              <div className="edit-btn">
+                <Link to="/contact/edit">Edit</Link>
+              </div>
+              <div className="delete-btn">
+                <Link to="/contact/">Delete</Link>
+              </div>
             </div>
           </div>
         </div>

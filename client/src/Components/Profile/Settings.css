@@ -1,0 +1,35 @@
+@import url(../../assets/css/page.css);
+
+.settings-wrapper {
+  /* border: 0.5px solid grey; */
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 4rem;
+  justify-items: center;
+}
+
+.settings-wrapper div[class^="settings-col"] {
+  border: 0.5px dashed grey;
+  display: grid;
+  place-items: center;
+  padding: 2rem;
+}
+div[class^="settings-col"] > div:nth-child(1) {
+  font-size: 35px;
+}
+.settings-wrapper div[class$="row-2"] {
+  /* border: 0.5px dashed grey; */
+}
+.settings-wrapper div[class$="row-2"] a {
+  /* border: 0.5px dashed grey; */
+}
+.settings-wrapper div[class$="row-2"] a .settings-icon-grp {
+  font-size: 10rem;
+  color: #2f2f2f;
+}
+.settings-wrapper div[class$="row-3"] a {
+  color: rgb(24, 24, 27);
+}
+.settings-wrapper div[class$="row-3"] a:hover {
+  text-decoration: underline;
+}

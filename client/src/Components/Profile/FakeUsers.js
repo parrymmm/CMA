@@ -6,6 +6,7 @@ const fakeUsers = [
     firstName: "Bob",
     lastName: "Risky",
     lastSeen: new Date().getUTCDate(),
+    photo: "",
   },
 
   {
@@ -15,6 +16,7 @@ const fakeUsers = [
     firstName: "Nick",
     lastName: "John",
     lastSeen: new Date().getUTCDate(),
+    photo: "",
   },
 
   {
@@ -24,6 +26,7 @@ const fakeUsers = [
     firstName: "Anita",
     lastName: "Joe",
     lastSeen: new Date().getUTCDate(),
+    photo: "",
   },
 ];
 export default fakeUsers;
